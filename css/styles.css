@@ -1264,6 +1264,29 @@ body {
     .modal {
         top: 30%;
     }
+
+    
+        .online-input-footer {
+            padding: 8px 8px 8px 16px;
+            font-family: inherit;
+            background-color: transparent;
+            border: 1px solid #FFFFFF;
+            border: 1px solid #FFFFFF;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                border-radius: 4px;
+                box-sizing: border-box;
+        }
+                .online-input-footer::placeholder {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 2;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.04em;
+                    color: #FFFFFF;
+                    width: 36px;
+                    height: 24px;
+                }
         .section-effective>.container {
             width: 1158px;
         }
@@ -1346,7 +1369,6 @@ body {
                             flex-direction: row;
                             gap: 80px;
                         }
-
                     .headre-container {
                         display: flex;
                         flex-direction: column;
