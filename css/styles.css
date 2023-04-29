@@ -177,6 +177,7 @@ body {
     list-style: none; */
 }
 .menu-toggle {
+    display: block;
     border: none;
     background-color: transparent;
     outline: none;
