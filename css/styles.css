@@ -190,7 +190,9 @@ body {
     outline: none;
     padding: 0;
     cursor: pointer;
-    fill: #2e2f42;
+}
+.btn-menu-toggle {
+color: #2e2f42;
 }
 .menu-close-toggle {
     display: block;

@@ -457,6 +457,9 @@
         margin: 0 auto;
     }
 
+        .modal-field-third {
+            margin-top: 16px;
+        }
     .current::after {
         top: 69px;
     }
