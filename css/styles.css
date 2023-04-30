@@ -1,3 +1,4 @@
+
 p,
 h1,
 h2,
@@ -31,6 +32,7 @@ img {
 
 
 body {
+    min-height: 100vh;
     font-family: "Roboto", sans-serif;
     color: var(--main-color, #434455);
     background-color: var(--main-background-color, white);
@@ -48,11 +50,16 @@ body {
     text-decoration: none;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .container {
-    /* min-width: 428px;
-    max-width: 1170px; */
-    padding: 0 16px;
-    margin: 0 auto;
+    background-color: transparent;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* margin: 0 auto; */
+    font-size: 16px;
 }
 
 /* ----------HEADER--------- */
@@ -658,8 +665,6 @@ padding-bottom: 96px;
 
     .container {
         width: 320px;
-        padding-left: 16px;
-        padding-right: 16px;
         margin: 0 auto;
     }
 
