@@ -3,7 +3,7 @@
 @media screen and (min-width: 428px) {
 
     .container {
-        width: 396px;
+        width: 428px;
     }
 
     .header>.container {
@@ -11,11 +11,11 @@
     }
 
     .approach>.container {
-        width: 396px;
+        width: 428px;
     }
 
     .online-input {
-        width: 398px;
+        width: 428px;
     }
 
     .menu-soc-list {
@@ -40,7 +40,7 @@
     }
 
     .modal {
-        width: 392px;
+        width: 428px;
     }
 
     .section-effective-contents {
@@ -173,6 +173,9 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+    .modal {
+        width: 408px;
+    }
 
     .menu-container {
         display: none;
@@ -192,9 +195,12 @@
         display: none;
     }
 
-.customers-list {
+    .customers-list {
         gap: 72px var(--main-gap, 24px);
-}
+    }
+    .costumers-link {
+        width: 168px;
+    }
 
     .header>.container {
         display: flex;
@@ -318,7 +324,7 @@
 
 
     .approach>.container {
-        width: 736px;
+        width: 768px;
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -358,7 +364,7 @@
     }
 
     .customers-section>.container {
-        width: 736px;
+        width: 768px;
     }
 
     .customers-list {
