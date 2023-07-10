@@ -409,7 +409,7 @@
 
     .online-input {
         width: 264px;
-        opacity: 0.3;
+        /* opacity: 0.3; */
     }
 
     .form-footer {
